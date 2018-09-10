@@ -18,7 +18,7 @@ def isList(x):
 def largestInt(listOfInts):
     """
     return largest element of a list of ints, 
-    raise ValueError if non empty, not a list, or not a list of ints
+    raise ValueError if empty, not a list, or not a list of ints
     
     By "largest", we mean a value that is no smaller than any other
       value in the list (There may be more than one instance of that
